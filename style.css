@@ -30,7 +30,7 @@ header nav ul li{
     width: 1200px;
  }
  header .logo img{
-    width: 110px;
+    margin-top: 10px;
  }
 header nav{
     padding-top: 22px;
@@ -45,6 +45,7 @@ header nav{
     background-repeat: no-repeat;
     z-index: -99;
     background-attachment: fixed;
+    background-size:  contain;
 } 
 .slider{
     position: relative;
@@ -71,4 +72,16 @@ header nav{
 .texto-dir h1{
     font-size: 100px;
     font-weight: 900;
+}
+.sobre .img, .sobre .titulo, .sobre p{
+    float: left;
+}
+.sobre p{
+    width: 80%;
+}
+.sobre .img{
+    width: 20%;
+}
+.sobre .img img{
+    width: 100%;
 }
